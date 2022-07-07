@@ -39,7 +39,7 @@ class backpack {
             left: strapLengthL,
             right: strapLengthR
         }
-        this.lidOpen = lidOpen // <- ';' is needed
+        this.lidOpen = lidOpen
     }
 
     // these are methods

@@ -22,7 +22,7 @@ function backpack( // the class fields are written inside the contructor body
         left: strapLengthL,
         right: strapLengthR
     }
-    this.lidOpen = lidOpen // <- ';' is needed
+    this.lidOpen = lidOpen
 
     this.toggleLid = function(lidStatus) {
         this.lidOpen = lidStatus
