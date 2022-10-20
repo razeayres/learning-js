@@ -18,7 +18,7 @@ const bluePack = {
 // this functions creates
 // a new article element
 // using the object as argument
-const addPack = function(currentPack) {
+const addPack = function (currentPack) {
     const newArticle = document.createElement("arcticle")
     newArticle.innerHTML = `
         <h1>${currentPack.name}</h1>
